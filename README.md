@@ -10,12 +10,12 @@
 
 ## Project Overview
 
-This repository contains a project developed for the **Epidemiological Modeling** course at CIMAT, presenting a compartmental mathematical model to analyze the transmission dynamics of **Mpox** (*Monkeypox virus*) and its calibration to real-world data. Building upon the coupled human–rodent framework introduced by **Qian et al. (2025)**—which combines an SVEIR structure for humans with an SI structure for rodent reservoirs—the main contribution of this work is the incorporation of **acquired immunity from the smallpox vaccine**.
+This repository contains a project developed for the **Epidemiological Modeling** course at CIMAT, presenting a compartmental mathematical model to analyze the transmission dynamics of **Mpox** (*Monkeypox virus*) and its calibration to real-world data. Building upon the coupled human–rodent framework introduced by **Qian et al. (2025)**—which combines an SVEIR structure for humans with an SI structure for rodent reservoirs—this work extends the model by incorporating the **loss of vaccine-induced immunity**.
 
 ## Objectives & Methodology
 
-- **Epidemiological Modeling:** Formulating a coupled system of nonlinear ordinary differential equations (ODEs) that captures human-to-human and zoonotic (rodent-to-human) transmission, demographic vital dynamics, and the cross-protective smallpox immunity.
-- **Parameter Estimation & Real-Data Fitting:** Fixing baseline demographic and clinical parameters from WHO guidelines and literature, while estimating the key transmission and disease progression parameters via Bayesian inference (MCMC) against smoothed 7-day moving average incidence data from [Our World in Data](https://ourworldindata.org/mpox).
+- **Epidemiological Modeling:** Formulating a coupled system of nonlinear ordinary differential equations (ODEs) that captures human-to-human and zoonotic (rodent-to-human) transmission, demographic vital dynamics, and the loss of vaccine-induced immunity.
+- **Parameter Estimation & Real-Data Fitting:** Fixing baseline demographic and clinical parameters from WHO guidelines and literature, while estimating the key transmission and disease progression parameters using **Markov Chain Monte Carlo (MCMC)** against smoothed 7-day moving average incidence data from [Our World in Data](https://ourworldindata.org/mpox).
 - **Numerical Simulation & Analysis:** Simulating the calibrated ODE system to compare model trajectories with observed case trends and interpret the estimated epidemiological parameters.
 
 ## Repository Contents
