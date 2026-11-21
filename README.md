@@ -4,7 +4,7 @@
 **Contact:** [jessica.lara@cimat.mx](mailto:jessica.lara@cimat.mx)  
 **Institution:** Center for Research in Mathematics (CIMAT)  
 **Course:** Epidemiological Modeling  
-**Instructor:** L. Leticia Ramírez Ramírez
+**Instructor:** Dra. L. Leticia Ramírez Ramírez
 
 ---
 
