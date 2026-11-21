@@ -22,7 +22,7 @@ This repository contains a project developed for the **Epidemiological Modeling*
 
 - **`Proyecto_Final_MEpi.pdf`:** Technical report covering the epidemiological background, ODE formulation, parameter calibration, and real-data fitting results.
 - **`simulacion_numerica.py`:** Python scripts implementing the numerical integration of the ODE system, parameter fitting, and visualizations.
-- **`presen_MEpi.pdf`:** Slides summarizing the model assumptions, calibration workflow, and main findings.
+- **`Presen_MEpi.pdf`:** Slides summarizing the model assumptions, calibration workflow, and main findings.
 
 ## References
 
