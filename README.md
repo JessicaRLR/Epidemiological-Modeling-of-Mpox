@@ -15,7 +15,7 @@ This repository contains a project developed for the **Epidemiological Modeling*
 ## Objectives & Methodology
 
 - **Epidemiological Modeling:** Formulating a coupled system of nonlinear ordinary differential equations (ODEs) that captures human-to-human and zoonotic (rodent-to-human) transmission, demographic vital dynamics, and the loss of vaccine-induced immunity.
-- **Parameter Estimation & Real-Data Fitting:** Fixing baseline demographic and clinical parameters from WHO guidelines and literature, while estimating the key transmission and disease progression parameters using **Markov Chain Monte Carlo (MCMC)** against smoothed 7-day moving average incidence data from [Our World in Data](https://ourworldindata.org/mpox).
+- **Parameter Estimation & Real-Data Fitting:** Fixing baseline demographic and clinical parameters from WHO guidelines and literature, while estimating the key transmission and disease progression parameters using Markov Chain Monte Carlo (MCMC) against smoothed 7-day moving average incidence data from [Our World in Data](https://ourworldindata.org/mpox).
 - **Numerical Simulation & Analysis:** Simulating the calibrated ODE system to compare model trajectories with observed case trends and interpret the estimated epidemiological parameters.
 
 ## Repository Contents
