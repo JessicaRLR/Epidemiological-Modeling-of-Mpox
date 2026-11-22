@@ -10,7 +10,7 @@
 
 ## Project Overview
 
-This repository contains a project developed for the **Epidemiological Modeling** course at CIMAT, presenting a compartmental mathematical model to analyze the transmission dynamics of **Mpox** (*Monkeypox virus*) and its calibration to real-world data. Building upon the coupled human–rodent framework introduced by **Qian et al. (2025)**—which combines an SVEIR structure for humans with an SI structure for rodent reservoirs—this work extends the model by incorporating the **loss of vaccine-induced immunity**.
+This repository contains a project developed for the **Epidemiological Modeling** course at CIMAT, presenting a compartmental mathematical model to analyze the transmission dynamics of **Mpox** (*Monkeypox virus*) and its calibration to real-world data. Building upon the coupled human–rodent framework introduced by **Qian et al. (2025)**, which combines an SVEIR structure for humans with an SI structure for rodent reservoirs, this work extends the model by incorporating the **loss of vaccine-induced immunity**.
 
 ## Objectives & Methodology
 
